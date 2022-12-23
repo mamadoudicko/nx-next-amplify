@@ -4,8 +4,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "nx run next-amplify-test:serve",
-    "build": "nx build next-amplify-test",
-    "start": "nx run next-amplify-test:serve:production"
+    "build": "nx run next-amplify-test:build",
+    "start": "nx run next-amplify-test:start"
   },
   "private": true,
   "dependencies": {
