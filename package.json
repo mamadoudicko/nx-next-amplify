@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "yarn nx run next-amplify-test:serve",
-    "build": "yarn nx build next-amplify-test",
-    "start": "yarn nx run next-amplify-test:serve:production"
+    "dev": "pnpm nx run next-amplify-test:serve",
+    "build": "pnpm nx build next-amplify-test",
+    "start": "pnpm nx run next-amplify-test:serve:production"
   },
   "private": true,
   "dependencies": {
